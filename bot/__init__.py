@@ -77,17 +77,17 @@ LOCAL = __import__(name = 'bot.locals.' + CONFIG.LOCAL, fromlist = ['LOCAL']).LO
 # load Command format
 
 COMMAND = Config({
-    'START' : 'start',
-    'PASSWORD' : 'pass',
-    'HELP' : 'help',
-    'LEECH' : 'leech',
-    'CANCEL_LEECH' : 'cancel',
-    'LEECH_LIST' : 'list',
-    'UPLOAD_AS_DOC' : 'upload_as_doc',
-    'UPLOAD_AS_ZIP' : 'upload_as_zip',
-    'SET_THUMBNAIL' : 'set_thumbnail',
-    'RESET_THUMBNAIL' : 'reset_thumbnail',
-    'SET_TRACKER' : 'set_tracker'
+    'START' : 'start@Torrentdl25bot',
+    'PASSWORD' : 'pass@Torrentdl25bot',
+    'HELP' : 'help@Torrentdl25bot',
+    'LEECH' : 'leech@Torrentdl25bot',
+    'CANCEL_LEECH' : 'cancel@Torrentdl25bot',
+    'LEECH_LIST' : 'list@Torrentdl25bot',
+    'UPLOAD_AS_DOC' : 'upload_as_doc@Torrentdl25bot',
+    'UPLOAD_AS_ZIP' : 'upload_as_zip@Torrentdl25bot',
+    'SET_THUMBNAIL' : 'set_thumbnail@Torrentdl25bot',
+    'RESET_THUMBNAIL' : 'reset_thumbnail@Torrentdl25bot',
+    'SET_TRACKER' : 'set_tracker@Torrentdl25bot'
 }, 'COMMAND_')
 
 # GOAL:
